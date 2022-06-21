@@ -25,7 +25,7 @@ reconocimiento de lo que se busca. Una oferta variada de productos.
 
 ## EQUIPO DE TRABAJO ##
 
-* PATRICIO CONSTANTINO:
+* PATRICIO CONSTANTINO: Tengo 38 años. Me dedico a la actividad deseguros hace 15 y soy nuevo en el mundo de la programación. Estoy muy ansioso poradquirir conocimientos en esta materia y así poder sumar nuevas herramientas en el ámbito profesional. Me gusta aprender cosas nuevas. Tengo como hobbies el deporte,principalmente fútbol y el diseño e impresión 3D.
 * RODRIGO FUENZALIDA:
 * BRUNO GRIECO:
 * LUCAS RIVAS:
