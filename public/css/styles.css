@@ -1,0 +1,233 @@
+/* :root{
+    --colorAmarillo: #EAC926;
+    --colorAzul: #03264C;
+    --colorCeleste: #0044AA;
+    --colorGrisOscuro: #666;
+    --colorGrisClaro: #ebebeb;
+    --colorVerde: #39b54a;
+    --colorNegro: #000;
+    --colorBlanco: #FFF;
+} */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'PT Serif';
+    background-color: #ebebeb;
+}
+
+p{
+    font-size: 14px;
+}
+
+.last-visit h3,
+.offers h3{
+    font-size: 24px;
+}
+
+.price{
+    font-size: 18px;
+}
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.description{
+    color: #666;
+}
+
+header{
+    background-color: #EAC926;
+    padding-bottom: 30px;
+}
+
+div.top-header{
+    padding: 5%;
+    /* Clase 14 - Micro desafío 3 */
+    /* Escriba su código aquí */  
+}
+
+/* Clase 14 - Micro desafío 3 */
+/* Escriba su código aquí */  
+
+
+header figure.logo{
+    padding: 10px;
+}
+
+/* Clase 14 - Micro desafío 3 */
+/* Escriba su código aquí */  
+
+
+header .form .input{
+    display: inline-block;
+    font-size: 12px;
+    padding: 2px;
+    margin-bottom: 2px;
+    width: 70%;
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+}
+
+header .form .submit{
+    display: inline-block;
+    font-size: 12px;
+    padding: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    background-color: #FFF;
+    border: 1px solid #000;
+    width: 12%;
+    /* Clase 14 - Micro desafío 3 */
+    /* Escriba su código aquí */  
+}
+
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+header nav{
+    font-size: 12px;
+    /* Clase 13 Code-review */
+    display: none;
+}
+
+header nav ul{
+    margin-bottom: 10px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+div.burger-menu{
+    text-align: center;
+    margin: auto;
+    padding: 10px 0px 20px 0px;
+    width: 40px;
+    height: 40px;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    padding: 10px;
+}
+
+section.banner div{
+    width: 100%;
+}
+
+section.banner div img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section h3{
+    margin: 20px 0px;
+}
+
+main section article{
+    background-color: #FFF;
+    margin: 10px 0;
+}
+
+main section article img{
+    width: 100%;
+}
+
+article div.main-article{
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+article div.main-article i{
+    font-size: 16px;
+    text-align: center;
+    background-color: #FFF;
+    width: 35px;
+    height: 35px;
+    padding: 7px;
+    border: 1px solid #39b54a;
+    margin-bottom: 5px;
+    border-radius: 50%;
+}
+
+/* Clase 14 - Micro desafío 1 */
+/* Escriba su código aquí */  
+
+article div.main-article h4{
+    margin-top: 20px;
+    display: none;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+/* media query para navegación en tablets */
+@media (min-width: 480px){
+  
+    main section div article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    article div.main-article h4{
+        display: block;
+    }
+
+    /* Clase 13 code-review */
+    div.burger-menu{
+        display: none;
+    }
+
+    /* Clase 13 code-review */
+    header nav{
+        display: block;
+    }
+
+    /* Clase 14 - Micro desafío 1 */
+    /* Escriba su código aquí */  
+
+    /* Clase 14 - Micro desafío 2 */
+    /* Escriba su código aquí */  
+    
+}
+
+/* media query para navegación en desktop */
+@media (min-width: 960px){
+    /* Clase 14 - Micro desafío 2 */
+    /* Escriba su código aquí */     
+}
+
+
+
+
+

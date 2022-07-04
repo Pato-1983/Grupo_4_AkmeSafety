@@ -1,0 +1,178 @@
+*{
+    font-family: 'roboto', arial, helvetica, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-size: 9px;
+    text-align: left;
+}
+
+.direccion {
+    display: flex;
+    width: 60%;
+    align-items: center;
+}
+
+.telefonoycorreo {
+    display: flex;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.header2 {
+    background-color: #142D39;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section img {
+    width: 25vw;
+    height: 25vw
+}
+
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+i {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.busqueda {
+    width: 50vw;
+    height: 5vw;
+    background-color: white;
+    border: solid 1px black;
+    color: black;
+    font-size: 10px;
+    text-align: left;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #142D39;
+    flex-wrap: wrap;
+}
+
+.navbar li {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #142D39;
+    color: white;
+}
+
+.carrusel{
+    height: 40vh;
+    background-image: url(/images/carrusel1.png);
+    background-size: cover
+}
+
+footer .container {
+    display: flex;
+    flex-direction: row;
+    background-color: #142D39;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logofooter {
+    height: 25vw;
+}
+
+.acerca {
+    width: 25vw;
+}
+
+.ayuda {
+    width: 25vw; 
+}
+
+.contacto {
+    width: 25vw; 
+}
+
+
+div .copyright {
+    background-color: #142D39;
+    color: white;
+    text-align: center;
+    font-size: 9px;
+    font-weight: lighter;
+    border-top: solid 1px white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.copyright span {
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    font-size: 13px;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+footer li {
+    font-size: 10px;
+    padding: 2px;
+    margin-left: 5px;
+}
+
+footer i {
+    font-size: 14px;
+    padding: 5px;
+    margin: 1px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.redes li {
+    display: flex;
+    background-color: #30708d;
+    color: white;
+    border-radius: 25%;
+    margin: 5px;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+}
+
+.navbar li:hover {
+    background-color: white;
+    color: #142D39;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+.redes li i:hover {
+    background-color: white;
+    color: #142D39;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+}
+
+.redes li:hover {
+    background-color: white;
+}
