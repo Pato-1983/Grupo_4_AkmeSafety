@@ -1,233 +1,260 @@
-/* :root{
-    --colorAmarillo: #EAC926;
-    --colorAzul: #03264C;
-    --colorCeleste: #0044AA;
-    --colorGrisOscuro: #666;
-    --colorGrisClaro: #ebebeb;
-    --colorVerde: #39b54a;
-    --colorNegro: #000;
-    --colorBlanco: #FFF;
-} */
-
 *{
-    margin: 0px;
-    padding: 0px;
+    font-family: 'roboto', arial, helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'PT Serif';
-    background-color: #ebebeb;
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-size: 9px;
+    text-align: left;
 }
 
-p{
-    font-size: 14px;
+.direccion {
+    display: flex;
+    width: 60%;
+    align-items: center;
 }
 
-.last-visit h3,
-.offers h3{
-    font-size: 24px;
+.telefonoycorreo {
+    display: flex;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
-.price{
-    font-size: 18px;
+.header2 {
+    background-color: #142D39;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.discount,
-.description{
-    font-size: 16px;
-    font-weight: normal;
+.header2 img {
+    width: 25vw;
 }
 
-h3,
-.description{
-    color: #666;
-}
-
-header{
-    background-color: #EAC926;
-    padding-bottom: 30px;
-}
-
-div.top-header{
-    padding: 5%;
-    /* Clase 14 - Micro desafío 3 */
-    /* Escriba su código aquí */  
-}
-
-/* Clase 14 - Micro desafío 3 */
-/* Escriba su código aquí */  
-
-
-header figure.logo{
+li, a {
+    list-style: none;
     padding: 10px;
-}
-
-/* Clase 14 - Micro desafío 3 */
-/* Escriba su código aquí */  
-
-
-header .form .input{
-    display: inline-block;
-    font-size: 12px;
-    padding: 2px;
-    margin-bottom: 2px;
-    width: 70%;
-    background-color: #FFF;
-    border: 1px solid #000;
-    outline: none;
-    color: #666;
-}
-
-header .form .submit{
-    display: inline-block;
-    font-size: 12px;
-    padding: 2px;
-    margin-bottom: 2px;
-    text-align: center;
-    color: #000;
-    font-weight: bold;
-    background-color: #FFF;
-    border: 1px solid #000;
-    width: 12%;
-    /* Clase 14 - Micro desafío 3 */
-    /* Escriba su código aquí */  
-}
-
-header div.top-header p{
-    width: 100%;
-    text-align: center;
-    margin-top: 10px;
-}
-
-header nav{
-    font-size: 12px;
-    /* Clase 13 Code-review */
-    display: none;
-}
-
-header nav ul{
-    margin-bottom: 10px;
-}
-
-header ul li{
-    list-style-type: none;
-}
-
-header ul li a{
+    color: white;
     text-decoration: none;
-    color: #000;
 }
 
-div.burger-menu{
-    text-align: center;
-    margin: auto;
-    padding: 10px 0px 20px 0px;
-    width: 40px;
-    height: 40px;
-}
-
-div.burger-menu i{
-    background-color: #0044AA;
-    border-radius: 5px;
-    color: #FFF;
+i {
     font-size: 20px;
-    padding: 10px;
+    padding: 5px;
 }
 
-section.banner div{
-    width: 100%;
+.busqueda {
+    width: 50vw;
+    height: 5vw;
+    background-color: white;
+    border: solid 1px black;
+    color: black;
+    font-size: 10px;
+    text-align: left;
 }
 
-section.banner div img{
-    width: 100%;
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #142D39;
+    flex-wrap: wrap;
 }
 
-main{
-    width: 90%;
-    margin: 0 auto;
+.navbar li {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #142D39;
+    color: white;
 }
 
-main section h3{
-    margin: 20px 0px;
+footer .container {
+    display: flex;
+    flex-direction: row;
+    background-color: #142D39;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-main section article{
-    background-color: #FFF;
-    margin: 10px 0;
+.logofooter {
+    width: 25%;
+    height: 25%;
 }
 
-main section article img{
-    width: 100%;
+.acerca {
+    width: 25vw;
 }
 
-article div.main-article{
-    width: 100%;
-    border-top: 1px solid #ebebeb;
-    padding: 15px;
+.ayuda {
+    width: 25vw; 
 }
 
-article div.main-article i{
-    font-size: 16px;
+.contacto {
+    width: 25vw; 
+}
+
+
+div .copyright {
+    background-color: #142D39;
+    color: white;
     text-align: center;
-    background-color: #FFF;
-    width: 35px;
-    height: 35px;
-    padding: 7px;
-    border: 1px solid #39b54a;
-    margin-bottom: 5px;
-    border-radius: 50%;
+    font-size: 9px;
+    font-weight: lighter;
+    border-top: solid 1px white;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
-/* Clase 14 - Micro desafío 1 */
-/* Escriba su código aquí */  
-
-article div.main-article h4{
-    margin-top: 20px;
-    display: none;
+.copyright span {
+    font-weight: bold;
 }
 
-main section article i,
-.discount{
-    color: #39b54a;
+h3 {
+    text-align: center;
+    font-size: 13px;
+    font-weight: bolder;
+    padding: 5px;
+    color: white;
 }
 
-/* media query para navegación en tablets */
-@media (min-width: 480px){
-  
-    main section div article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
+footer li {
+    font-size: 10px;
+    padding: 2px;
+    margin-left: 5px;
+}
 
-    article div.main-article h4{
-        display: block;
-    }
+footer i {
+    font-size: 14px;
+    padding: 5px;
+    margin: 1px;
+}
 
-    /* Clase 13 code-review */
-    div.burger-menu{
-        display: none;
-    }
+.redes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
-    /* Clase 13 code-review */
-    header nav{
-        display: block;
-    }
+.redes li {
+    display: flex;
+    background-color: #30708d;
+    color: white;
+    border-radius: 25%;
+    margin: 5px;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+}
 
-    /* Clase 14 - Micro desafío 1 */
-    /* Escriba su código aquí */  
+.navbar li:hover {
+    background-color: white;
+    color: #142D39;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
 
-    /* Clase 14 - Micro desafío 2 */
-    /* Escriba su código aquí */  
+.redes li i:hover {
+    background-color: white;
+    color: #142D39;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+}
+
+.redes li:hover {
+    background-color: white;
+}
+
+form {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+form i{
+    color: black;
+}
+
+input {
+    height: 34px;
+    color: black;
+    border: solid 1px black;
+    width: 50%;
+}
+
+button {
+    border-radius: 5px;
+    text-align: center;
+}
+
+.slider-container img {
+    width: 100%;
+} 
     
+  @media (min-width: 606px) {
+    .logofooter {
+        width: 15vw;
+    }
+    .header2 img {
+        width: 15vw;
+    }
+    .navbar li {
+        font-size: 18px;
+    }
+    .footer li {
+        font-size: 12px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    p.copyright {
+        font-size: 11px;
+    }
+    .header span {
+        font-size: 11px;
+    }
+    .acerca {
+        width: 15vw;
+    }
+    
+    .ayuda {
+        width: 15vw; 
+    }
+    
+    .contacto {
+        width: 15vw; 
+    }
 }
 
-/* media query para navegación en desktop */
-@media (min-width: 960px){
-    /* Clase 14 - Micro desafío 2 */
-    /* Escriba su código aquí */     
+@media (min-width: 1200px) {
+    .footer li {
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .footer li {
+        font-size: 16px;
+    }
+
+    .header2 div i {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .header span {
+        font-size: 14px;
+    }
+    p.copyright {
+        font-size: 14px;
+    }
 }
-
-
-
-
-
